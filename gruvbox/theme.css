@@ -1,0 +1,63 @@
+/* Gruvbox for Cord. Palette: Gruvbox by Pavel Pertsev (MIT), https://github.com/morhetz/gruvbox */
+
+/* ── Dark ── */
+[data-theme="gruvbox"] {
+  --accent:       #fabd2f;
+  --accent-hover: #e5a91f;
+  --accent-fg:    #282828;
+
+  --bg:          #282828;
+  --bg-sidebar:  #1d2021;
+  --bg-panel:    #232323;
+  --bg-hover:    #32302f;
+  --bg-active:   #3c3836;
+  --bg-input:    #2e2c2b;
+  --bg-elevated: #32302f;
+
+  --border:        #3c3836;
+  --border-strong: #504945;
+  --border-muted:  #302e2d;
+
+  --text-primary:   #ebdbb2;
+  --text-secondary: #bdae93;
+  --text-muted:     #928374;
+
+  --link-color:      #83a598;
+  --link-underline:  rgba(131, 165, 152, 0.3);
+  --danger:          #fb4934;
+  --danger-hover-bg: rgba(251, 73, 52, 0.12);
+  --danger-border:   rgba(251, 73, 52, 0.3);
+  --close-hover-bg:  #fb4934;
+  --close-hover-fg:  #282828;
+}
+
+/* ── Light ── */
+[data-theme="gruvbox"][data-scheme="light"] {
+  --accent:       #af3a03;
+  --accent-hover: #8f2f02;
+  --accent-fg:    #fbf1c7;
+
+  --bg:          #fbf1c7;
+  --bg-sidebar:  #f2e5bc;
+  --bg-panel:    #f2e5bc;
+  --bg-hover:    #ebdbb2;
+  --bg-active:   #d5c4a1;
+  --bg-input:    #f2e5bc;
+  --bg-elevated: #fdf6d8;
+
+  --border:        #ebdbb2;
+  --border-strong: #bdae93;
+  --border-muted:  #f0e2b6;
+
+  --text-primary:   #3c3836;
+  --text-secondary: #504945;
+  --text-muted:     #7c6f64;
+
+  --link-color:      #076678;
+  --link-underline:  rgba(7, 102, 120, 0.3);
+  --danger:          #9d0006;
+  --danger-hover-bg: rgba(157, 0, 6, 0.1);
+  --danger-border:   rgba(157, 0, 6, 0.3);
+  --close-hover-bg:  #9d0006;
+  --close-hover-fg:  #ffffff;
+}

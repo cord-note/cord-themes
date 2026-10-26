@@ -1,0 +1,63 @@
+/* Dracula for Cord. Palette: Dracula by Zeno Rocha (MIT), https://draculatheme.com */
+
+/* ── Dark ── */
+[data-theme="dracula"] {
+  --accent:       #bd93f9;
+  --accent-hover: #a87ff0;
+  --accent-fg:    #191a21;
+
+  --bg:          #282a36;
+  --bg-sidebar:  #191a21;
+  --bg-panel:    #21222c;
+  --bg-hover:    #343746;
+  --bg-active:   #44475a;
+  --bg-input:    #303241;
+  --bg-elevated: #343746;
+
+  --border:        #343746;
+  --border-strong: #4d5066;
+  --border-muted:  #2c2e3a;
+
+  --text-primary:   #f8f8f2;
+  --text-secondary: #bfc2d4;
+  --text-muted:     #7f8ab8;
+
+  --link-color:      #8be9fd;
+  --link-underline:  rgba(139, 233, 253, 0.3);
+  --danger:          #ff5555;
+  --danger-hover-bg: rgba(255, 85, 85, 0.12);
+  --danger-border:   rgba(255, 85, 85, 0.3);
+  --close-hover-bg:  #ff5555;
+  --close-hover-fg:  #282a36;
+}
+
+/* ── Light ── */
+[data-theme="dracula"][data-scheme="light"] {
+  --accent:       #644ac9;
+  --accent-hover: #5139b0;
+  --accent-fg:    #ffffff;
+
+  --bg:          #fffbeb;
+  --bg-sidebar:  #f3efdd;
+  --bg-panel:    #f8f4e3;
+  --bg-hover:    #efead6;
+  --bg-active:   #cfcfde;
+  --bg-input:    #f8f4e3;
+  --bg-elevated: #fffdf4;
+
+  --border:        #e8e2cc;
+  --border-strong: #c9c2a7;
+  --border-muted:  #f0ebd8;
+
+  --text-primary:   #1f1f1f;
+  --text-secondary: #4a4637;
+  --text-muted:     #6c664b;
+
+  --link-color:      #036a96;
+  --link-underline:  rgba(3, 106, 150, 0.3);
+  --danger:          #cb3a2a;
+  --danger-hover-bg: rgba(203, 58, 42, 0.1);
+  --danger-border:   rgba(203, 58, 42, 0.3);
+  --close-hover-bg:  #cb3a2a;
+  --close-hover-fg:  #ffffff;
+}

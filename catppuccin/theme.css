@@ -1,0 +1,63 @@
+/* Catppuccin for Cord. Palette: Catppuccin (MIT), https://github.com/catppuccin/catppuccin */
+
+/* ── Dark ── */
+[data-theme="catppuccin"] {
+  --accent:       #cba6f7;
+  --accent-hover: #b892f0;
+  --accent-fg:    #11111b;
+
+  --bg:          #1e1e2e;
+  --bg-sidebar:  #11111b;
+  --bg-panel:    #181825;
+  --bg-hover:    #2a2b3c;
+  --bg-active:   #313244;
+  --bg-input:    #232334;
+  --bg-elevated: #2a2b3c;
+
+  --border:        #313244;
+  --border-strong: #45475a;
+  --border-muted:  #262637;
+
+  --text-primary:   #cdd6f4;
+  --text-secondary: #a6adc8;
+  --text-muted:     #7f849c;
+
+  --link-color:      #89b4fa;
+  --link-underline:  rgba(137, 180, 250, 0.3);
+  --danger:          #f38ba8;
+  --danger-hover-bg: rgba(243, 139, 168, 0.12);
+  --danger-border:   rgba(243, 139, 168, 0.3);
+  --close-hover-bg:  #f38ba8;
+  --close-hover-fg:  #1e1e2e;
+}
+
+/* ── Light ── */
+[data-theme="catppuccin"][data-scheme="light"] {
+  --accent:       #8839ef;
+  --accent-hover: #7527d9;
+  --accent-fg:    #ffffff;
+
+  --bg:          #eff1f5;
+  --bg-sidebar:  #dce0e8;
+  --bg-panel:    #e6e9ef;
+  --bg-hover:    #dce0e8;
+  --bg-active:   #ccd0da;
+  --bg-input:    #e6e9ef;
+  --bg-elevated: #f4f5f8;
+
+  --border:        #ccd0da;
+  --border-strong: #acb0be;
+  --border-muted:  #dce0e8;
+
+  --text-primary:   #4c4f69;
+  --text-secondary: #5c5f77;
+  --text-muted:     #7c7f93;
+
+  --link-color:      #1e66f5;
+  --link-underline:  rgba(30, 102, 245, 0.3);
+  --danger:          #d20f39;
+  --danger-hover-bg: rgba(210, 15, 57, 0.1);
+  --danger-border:   rgba(210, 15, 57, 0.3);
+  --close-hover-bg:  #d20f39;
+  --close-hover-fg:  #ffffff;
+}

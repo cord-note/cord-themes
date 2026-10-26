@@ -1,0 +1,63 @@
+/* Rosé Pine for Cord. Palette: Rosé Pine (MIT), https://rosepinetheme.com */
+
+/* ── Dark ── */
+[data-theme="rose-pine"] {
+  --accent:       #ebbcba;
+  --accent-hover: #e0a9a6;
+  --accent-fg:    #191724;
+
+  --bg:          #191724;
+  --bg-sidebar:  #13111c;
+  --bg-panel:    #1f1d2e;
+  --bg-hover:    #26233a;
+  --bg-active:   #403d52;
+  --bg-input:    #1f1d2e;
+  --bg-elevated: #26233a;
+
+  --border:        #26233a;
+  --border-strong: #403d52;
+  --border-muted:  #21202e;
+
+  --text-primary:   #e0def4;
+  --text-secondary: #908caa;
+  --text-muted:     #6e6a86;
+
+  --link-color:      #9ccfd8;
+  --link-underline:  rgba(156, 207, 216, 0.3);
+  --danger:          #eb6f92;
+  --danger-hover-bg: rgba(235, 111, 146, 0.12);
+  --danger-border:   rgba(235, 111, 146, 0.3);
+  --close-hover-bg:  #eb6f92;
+  --close-hover-fg:  #191724;
+}
+
+/* ── Light ── */
+[data-theme="rose-pine"][data-scheme="light"] {
+  --accent:       #b4637a;
+  --accent-hover: #9e5068;
+  --accent-fg:    #fffaf3;
+
+  --bg:          #faf4ed;
+  --bg-sidebar:  #f2e9e1;
+  --bg-panel:    #fffaf3;
+  --bg-hover:    #f4ede8;
+  --bg-active:   #dfdad9;
+  --bg-input:    #f2e9e1;
+  --bg-elevated: #fffaf3;
+
+  --border:        #dfdad9;
+  --border-strong: #cecacd;
+  --border-muted:  #f4ede8;
+
+  --text-primary:   #575279;
+  --text-secondary: #686483;
+  --text-muted:     #8a859c;
+
+  --link-color:      #286983;
+  --link-underline:  rgba(40, 105, 131, 0.3);
+  --danger:          #b4637a;
+  --danger-hover-bg: rgba(180, 99, 122, 0.1);
+  --danger-border:   rgba(180, 99, 122, 0.3);
+  --close-hover-bg:  #b4637a;
+  --close-hover-fg:  #ffffff;
+}

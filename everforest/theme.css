@@ -1,0 +1,63 @@
+/* Everforest for Cord. Palette: Everforest by sainnhe (MIT), https://github.com/sainnhe/everforest */
+
+/* ── Dark ── */
+[data-theme="everforest"] {
+  --accent:       #a7c080;
+  --accent-hover: #96b06f;
+  --accent-fg:    #2d353b;
+
+  --bg:          #2d353b;
+  --bg-sidebar:  #232a2e;
+  --bg-panel:    #272e33;
+  --bg-hover:    #343f44;
+  --bg-active:   #3d484d;
+  --bg-input:    #30383d;
+  --bg-elevated: #343f44;
+
+  --border:        #343f44;
+  --border-strong: #475258;
+  --border-muted:  #2f383d;
+
+  --text-primary:   #d3c6aa;
+  --text-secondary: #9da9a0;
+  --text-muted:     #859289;
+
+  --link-color:      #7fbbb3;
+  --link-underline:  rgba(127, 187, 179, 0.3);
+  --danger:          #e67e80;
+  --danger-hover-bg: rgba(230, 126, 128, 0.12);
+  --danger-border:   rgba(230, 126, 128, 0.3);
+  --close-hover-bg:  #e67e80;
+  --close-hover-fg:  #2d353b;
+}
+
+/* ── Light ── */
+[data-theme="everforest"][data-scheme="light"] {
+  --accent:       #6d7f00;
+  --accent-hover: #5a6a00;
+  --accent-fg:    #fdf6e3;
+
+  --bg:          #fdf6e3;
+  --bg-sidebar:  #efebd4;
+  --bg-panel:    #f4f0d9;
+  --bg-hover:    #efebd4;
+  --bg-active:   #e6e2cc;
+  --bg-input:    #f4f0d9;
+  --bg-elevated: #fffbef;
+
+  --border:        #e6e2cc;
+  --border-strong: #d3cfb9;
+  --border-muted:  #efebd4;
+
+  --text-primary:   #4a575e;
+  --text-secondary: #5a6870;
+  --text-muted:     #7f8b85;
+
+  --link-color:      #3a94c5;
+  --link-underline:  rgba(58, 148, 197, 0.3);
+  --danger:          #f85552;
+  --danger-hover-bg: rgba(248, 85, 82, 0.1);
+  --danger-border:   rgba(248, 85, 82, 0.3);
+  --close-hover-bg:  #f85552;
+  --close-hover-fg:  #ffffff;
+}

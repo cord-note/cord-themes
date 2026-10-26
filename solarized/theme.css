@@ -1,0 +1,63 @@
+/* Solarized for Cord. Palette: Solarized by Ethan Schoonover (MIT), https://ethanschoonover.com/solarized/ */
+
+/* ── Dark ── */
+[data-theme="solarized"] {
+  --accent:       #268bd2;
+  --accent-hover: #1f78b8;
+  --accent-fg:    #fdf6e3;
+
+  --bg:          #002b36;
+  --bg-sidebar:  #00232c;
+  --bg-panel:    #052f3b;
+  --bg-hover:    #073642;
+  --bg-active:   #0b4250;
+  --bg-input:    #04313d;
+  --bg-elevated: #073642;
+
+  --border:        #073642;
+  --border-strong: #2a5561;
+  --border-muted:  #053340;
+
+  --text-primary:   #93a1a1;
+  --text-secondary: #839496;
+  --text-muted:     #6c8389;
+
+  --link-color:      #2aa198;
+  --link-underline:  rgba(42, 161, 152, 0.3);
+  --danger:          #dc322f;
+  --danger-hover-bg: rgba(220, 50, 47, 0.12);
+  --danger-border:   rgba(220, 50, 47, 0.3);
+  --close-hover-bg:  #dc322f;
+  --close-hover-fg:  #ffffff;
+}
+
+/* ── Light ── */
+[data-theme="solarized"][data-scheme="light"] {
+  --accent:       #268bd2;
+  --accent-hover: #1f78b8;
+  --accent-fg:    #fdf6e3;
+
+  --bg:          #fdf6e3;
+  --bg-sidebar:  #eee8d5;
+  --bg-panel:    #f5efdc;
+  --bg-hover:    #eee8d5;
+  --bg-active:   #e4dcc4;
+  --bg-input:    #f5efdc;
+  --bg-elevated: #fffbf0;
+
+  --border:        #e6dfc8;
+  --border-strong: #c9c1a8;
+  --border-muted:  #efe9d6;
+
+  --text-primary:   #475b62;
+  --text-secondary: #586e75;
+  --text-muted:     #7b8c8f;
+
+  --link-color:      #1d8a82;
+  --link-underline:  rgba(29, 138, 130, 0.3);
+  --danger:          #dc322f;
+  --danger-hover-bg: rgba(220, 50, 47, 0.1);
+  --danger-border:   rgba(220, 50, 47, 0.3);
+  --close-hover-bg:  #dc322f;
+  --close-hover-fg:  #ffffff;
+}
