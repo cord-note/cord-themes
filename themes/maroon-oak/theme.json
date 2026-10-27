@@ -1,0 +1,22 @@
+{
+  "name": "Maroon Oak",
+  "description": "Dark orchids, oxblood leather and linen",
+  "author": "Palette: Engie Designs",
+  "group": "From photographs",
+  "tags": [
+    "red",
+    "brown",
+    "warm",
+    "dark"
+  ],
+  "palette": {
+    "credit": "Engie Designs",
+    "swatches": [
+      "#a1937e",
+      "#594836",
+      "#4d1519",
+      "#301413",
+      "#170704"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Lotus",
+  "description": "Lily pads, pink lotus flowers and deep water",
+  "author": "Palette: lotus pond palette",
+  "group": "From photographs",
+  "tags": [
+    "green",
+    "pink",
+    "cool",
+    "pastel"
+  ],
+  "palette": {
+    "credit": "lotus pond palette",
+    "swatches": [
+      "#0a3323",
+      "#839958",
+      "#f7f4d5",
+      "#d3968c",
+      "#105666"
+    ]
+  }
+}

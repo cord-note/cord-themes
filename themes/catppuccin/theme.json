@@ -1,0 +1,22 @@
+{
+  "name": "Catppuccin",
+  "description": "Soothing pastels: Mocha at night, Latte by day",
+  "author": "Palette: Catppuccin",
+  "group": "Classic palettes",
+  "tags": [
+    "purple",
+    "pastel",
+    "cool"
+  ],
+  "palette": {
+    "credit": "Catppuccin",
+    "url": "https://github.com/catppuccin/catppuccin",
+    "swatches": [
+      "#1e1e2e",
+      "#cba6f7",
+      "#89b4fa",
+      "#f38ba8",
+      "#eff1f5"
+    ]
+  }
+}

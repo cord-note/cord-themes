@@ -1,0 +1,63 @@
+/* Kanagawa for Cord. Palette: Kanagawa by rebelot (MIT), https://github.com/rebelot/kanagawa.nvim */
+
+/* ── Dark ── */
+[data-theme="kanagawa"] {
+  --accent:       #7e9cd8;
+  --accent-hover: #6b89c6;
+  --accent-fg:    #16161d;
+
+  --bg:          #1f1f28;
+  --bg-sidebar:  #16161d;
+  --bg-panel:    #1a1a22;
+  --bg-hover:    #2a2a37;
+  --bg-active:   #223249;
+  --bg-input:    #232330;
+  --bg-elevated: #2a2a37;
+
+  --border:        #2a2a37;
+  --border-strong: #54546d;
+  --border-muted:  #252530;
+
+  --text-primary:   #dcd7ba;
+  --text-secondary: #c8c093;
+  --text-muted:     #8a8980;
+
+  --link-color:      #7fb4ca;
+  --link-underline:  rgba(127, 180, 202, 0.3);
+  --danger:          #e46876;
+  --danger-hover-bg: rgba(228, 104, 118, 0.12);
+  --danger-border:   rgba(228, 104, 118, 0.3);
+  --close-hover-bg:  #e46876;
+  --close-hover-fg:  #1f1f28;
+}
+
+/* ── Light ── */
+[data-theme="kanagawa"][data-scheme="light"] {
+  --accent:       #4d699b;
+  --accent-hover: #3f5a88;
+  --accent-fg:    #f2ecbc;
+
+  --bg:          #f2ecbc;
+  --bg-sidebar:  #e5ddb0;
+  --bg-panel:    #ebe4b6;
+  --bg-hover:    #e5ddb0;
+  --bg-active:   #d5cea3;
+  --bg-input:    #ebe4b6;
+  --bg-elevated: #f6f1cc;
+
+  --border:        #dcd5ac;
+  --border-strong: #b8b18a;
+  --border-muted:  #e7e0b2;
+
+  --text-primary:   #545464;
+  --text-secondary: #43436c;
+  --text-muted:     #716e61;
+
+  --link-color:      #3a6e81;
+  --link-underline:  rgba(58, 110, 129, 0.3);
+  --danger:          #c84053;
+  --danger-hover-bg: rgba(200, 64, 83, 0.1);
+  --danger-border:   rgba(200, 64, 83, 0.3);
+  --close-hover-bg:  #c84053;
+  --close-hover-fg:  #ffffff;
+}

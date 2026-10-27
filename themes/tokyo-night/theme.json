@@ -1,0 +1,22 @@
+{
+  "name": "Tokyo Night",
+  "description": "Neon city lights after dark, clean paper by day",
+  "author": "Palette: Tokyo Night by enkia",
+  "group": "Classic palettes",
+  "tags": [
+    "blue",
+    "purple",
+    "cool"
+  ],
+  "palette": {
+    "credit": "Tokyo Night by enkia",
+    "url": "https://github.com/enkia/tokyo-night-vscode-theme",
+    "swatches": [
+      "#1a1b26",
+      "#7aa2f7",
+      "#7dcfff",
+      "#bb9af7",
+      "#e1e2e7"
+    ]
+  }
+}

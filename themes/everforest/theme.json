@@ -1,0 +1,22 @@
+{
+  "name": "Everforest",
+  "description": "Green, warm and easy on the eyes",
+  "author": "Palette: Everforest by sainnhe",
+  "group": "Classic palettes",
+  "tags": [
+    "green",
+    "warm",
+    "soft"
+  ],
+  "palette": {
+    "credit": "Everforest by sainnhe",
+    "url": "https://github.com/sainnhe/everforest",
+    "swatches": [
+      "#2d353b",
+      "#a7c080",
+      "#7fbbb3",
+      "#dbbc7f",
+      "#fdf6e3"
+    ]
+  }
+}

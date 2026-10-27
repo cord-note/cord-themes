@@ -1,0 +1,22 @@
+{
+  "name": "Gruvbox",
+  "description": "Retro groove: warm browns, yellow and orange",
+  "author": "Palette: Gruvbox by Pavel Pertsev",
+  "group": "Classic palettes",
+  "tags": [
+    "warm",
+    "retro",
+    "yellow"
+  ],
+  "palette": {
+    "credit": "Gruvbox by Pavel Pertsev",
+    "url": "https://github.com/morhetz/gruvbox",
+    "swatches": [
+      "#282828",
+      "#fabd2f",
+      "#fe8019",
+      "#83a598",
+      "#fbf1c7"
+    ]
+  }
+}

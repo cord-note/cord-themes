@@ -1,0 +1,20 @@
+{
+  "name": "Ink",
+  "description": "Black and white: classic, clean, always works",
+  "author": "Palette: Colour Combos: Black & White",
+  "group": "Colour combos",
+  "tags": [
+    "monochrome",
+    "neutral",
+    "high-contrast"
+  ],
+  "palette": {
+    "credit": "Colour Combos: Black & White",
+    "swatches": [
+      "#090b0a",
+      "#404040",
+      "#848484",
+      "#ebebeb"
+    ]
+  }
+}

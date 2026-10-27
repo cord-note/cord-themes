@@ -1,0 +1,20 @@
+{
+  "name": "Evergreen",
+  "description": "Green and black: fresh, calm, premium",
+  "author": "Palette: Colour Combos: Green & Black",
+  "group": "Colour combos",
+  "tags": [
+    "green",
+    "dark",
+    "calm"
+  ],
+  "palette": {
+    "credit": "Colour Combos: Green & Black",
+    "swatches": [
+      "#1e5f37",
+      "#506c5c",
+      "#7b997d",
+      "#1b2020"
+    ]
+  }
+}

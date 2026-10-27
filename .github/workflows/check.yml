@@ -1,0 +1,31 @@
+name: Check themes
+
+# Every theme must pass tools/check.py, generated themes must match
+# tools/palettes.py, and the previews and README must be up to date.
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-26.04
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Check every theme
+        run: python3 tools/check.py
+
+      - name: Generated themes match tools/palettes.py
+        run: |
+          python3 tools/generate.py
+          git diff --exit-code -- themes/ || {
+            echo "::error::A generated theme was edited by hand. Change tools/palettes.py and run python tools/generate.py instead."
+            exit 1
+          }
+
+      - name: Previews and README are up to date
+        run: python3 tools/catalogue.py --check

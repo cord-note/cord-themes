@@ -1,0 +1,22 @@
+{
+  "name": "Kanagawa",
+  "description": "Inspired by The Great Wave: ink, wave blue and lotus paper",
+  "author": "Palette: Kanagawa by rebelot",
+  "group": "Classic palettes",
+  "tags": [
+    "blue",
+    "muted",
+    "japanese"
+  ],
+  "palette": {
+    "credit": "Kanagawa by rebelot",
+    "url": "https://github.com/rebelot/kanagawa.nvim",
+    "swatches": [
+      "#1f1f28",
+      "#7e9cd8",
+      "#7fb4ca",
+      "#e6c384",
+      "#f2ecbc"
+    ]
+  }
+}

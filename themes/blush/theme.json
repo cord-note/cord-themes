@@ -1,0 +1,20 @@
+{
+  "name": "Blush",
+  "description": "Pink and grey: soft, modern, aesthetic",
+  "author": "Palette: Colour Combos: Pink & Grey",
+  "group": "Colour combos",
+  "tags": [
+    "pink",
+    "pastel",
+    "soft"
+  ],
+  "palette": {
+    "credit": "Colour Combos: Pink & Grey",
+    "swatches": [
+      "#ec859c",
+      "#d87d96",
+      "#eec1cb",
+      "#79797b"
+    ]
+  }
+}

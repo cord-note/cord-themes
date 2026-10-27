@@ -1,0 +1,22 @@
+{
+  "name": "Spiced Cocoa",
+  "description": "Snowy morning, hot chocolate and a red car under the pines",
+  "author": "Palette: Engie Designs",
+  "group": "From photographs",
+  "tags": [
+    "warm",
+    "brown",
+    "red",
+    "muted"
+  ],
+  "palette": {
+    "credit": "Engie Designs",
+    "swatches": [
+      "#c0bab3",
+      "#52423d",
+      "#887d77",
+      "#391214",
+      "#160f0c"
+    ]
+  }
+}

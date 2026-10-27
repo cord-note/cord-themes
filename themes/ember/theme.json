@@ -1,0 +1,20 @@
+{
+  "name": "Ember",
+  "description": "Orange and brown: warm, rich, earthy",
+  "author": "Palette: Colour Combos: Orange & Brown",
+  "group": "Colour combos",
+  "tags": [
+    "orange",
+    "brown",
+    "warm"
+  ],
+  "palette": {
+    "credit": "Colour Combos: Orange & Brown",
+    "swatches": [
+      "#e66211",
+      "#a24d21",
+      "#603c2a",
+      "#32231c"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Steel",
+  "description": "Blue and grey: cool, sleek, professional",
+  "author": "Palette: Colour Combos: Blue & Grey",
+  "group": "Colour combos",
+  "tags": [
+    "blue",
+    "grey",
+    "cool",
+    "professional"
+  ],
+  "palette": {
+    "credit": "Colour Combos: Blue & Grey",
+    "swatches": [
+      "#022945",
+      "#506d8a",
+      "#a2a6ad",
+      "#a9adb2"
+    ]
+  }
+}
