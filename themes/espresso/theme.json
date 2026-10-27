@@ -1,0 +1,20 @@
+{
+  "name": "Espresso",
+  "description": "Brown and cream: cozy, classy, vintage",
+  "author": "Palette: Colour Combos: Brown & Cream",
+  "group": "Colour combos",
+  "tags": [
+    "brown",
+    "warm",
+    "cozy"
+  ],
+  "palette": {
+    "credit": "Colour Combos: Brown & Cream",
+    "swatches": [
+      "#39281c",
+      "#704f36",
+      "#d8b694",
+      "#f3e4d0"
+    ]
+  }
+}

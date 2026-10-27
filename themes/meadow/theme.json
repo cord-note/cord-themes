@@ -1,0 +1,21 @@
+{
+  "name": "Meadow",
+  "description": "Green hills, wheat, a slate sky and one bright red",
+  "author": "Palette: Casa Chromatica",
+  "group": "From photographs",
+  "tags": [
+    "green",
+    "earthy",
+    "vivid"
+  ],
+  "palette": {
+    "credit": "Casa Chromatica",
+    "swatches": [
+      "#0c3b15",
+      "#ead39d",
+      "#757f35",
+      "#223e47",
+      "#52110c"
+    ]
+  }
+}

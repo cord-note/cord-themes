@@ -1,0 +1,20 @@
+{
+  "name": "Orchid",
+  "description": "Monochrome in one hue: simple, clean, stylish",
+  "author": "Palette: Colour Combos: Monochrome (any hue)",
+  "group": "Colour combos",
+  "tags": [
+    "pink",
+    "purple",
+    "monochrome"
+  ],
+  "palette": {
+    "credit": "Colour Combos: Monochrome (any hue)",
+    "swatches": [
+      "#805571",
+      "#b1789e",
+      "#e0a1cc",
+      "#f483e0"
+    ]
+  }
+}

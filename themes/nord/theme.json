@@ -1,0 +1,22 @@
+{
+  "name": "Nord",
+  "description": "Arctic, north-bluish calm",
+  "author": "Palette: Nord by Arctic Ice Studio",
+  "group": "Classic palettes",
+  "tags": [
+    "blue",
+    "cool",
+    "muted"
+  ],
+  "palette": {
+    "credit": "Nord by Arctic Ice Studio",
+    "url": "https://www.nordtheme.com",
+    "swatches": [
+      "#2e3440",
+      "#3b4252",
+      "#88c0d0",
+      "#81a1c1",
+      "#eceff4"
+    ]
+  }
+}

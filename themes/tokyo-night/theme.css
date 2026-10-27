@@ -1,0 +1,63 @@
+/* Tokyo Night for Cord. Palette: Tokyo Night by enkia (MIT), https://github.com/enkia/tokyo-night-vscode-theme */
+
+/* ── Dark ── */
+[data-theme="tokyo-night"] {
+  --accent:       #7aa2f7;
+  --accent-hover: #6690e8;
+  --accent-fg:    #16161e;
+
+  --bg:          #1a1b26;
+  --bg-sidebar:  #13131a;
+  --bg-panel:    #16161e;
+  --bg-hover:    #222436;
+  --bg-active:   #292e42;
+  --bg-input:    #1f2335;
+  --bg-elevated: #24283b;
+
+  --border:        #24283b;
+  --border-strong: #3b4261;
+  --border-muted:  #1f2335;
+
+  --text-primary:   #c0caf5;
+  --text-secondary: #a9b1d6;
+  --text-muted:     #6b74a0;
+
+  --link-color:      #7dcfff;
+  --link-underline:  rgba(125, 207, 255, 0.3);
+  --danger:          #f7768e;
+  --danger-hover-bg: rgba(247, 118, 142, 0.12);
+  --danger-border:   rgba(247, 118, 142, 0.3);
+  --close-hover-bg:  #f7768e;
+  --close-hover-fg:  #1a1b26;
+}
+
+/* ── Light ── */
+[data-theme="tokyo-night"][data-scheme="light"] {
+  --accent:       #2e7de9;
+  --accent-hover: #1f6bd4;
+  --accent-fg:    #ffffff;
+
+  --bg:          #e1e2e7;
+  --bg-sidebar:  #d6d8df;
+  --bg-panel:    #dadbe1;
+  --bg-hover:    #d0d2da;
+  --bg-active:   #c4c8da;
+  --bg-input:    #e9e9ed;
+  --bg-elevated: #e9e9ed;
+
+  --border:        #c8cad6;
+  --border-strong: #a8aecb;
+  --border-muted:  #d4d6de;
+
+  --text-primary:   #343b58;
+  --text-secondary: #4c5375;
+  --text-muted:     #6a7096;
+
+  --link-color:      #006d92;
+  --link-underline:  rgba(0, 109, 146, 0.3);
+  --danger:          #f52a65;
+  --danger-hover-bg: rgba(245, 42, 101, 0.1);
+  --danger-border:   rgba(245, 42, 101, 0.3);
+  --close-hover-bg:  #f52a65;
+  --close-hover-fg:  #ffffff;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Sunset Drive",
+  "description": "Blue and orange: energetic, vibrant, fun",
+  "author": "Palette: Colour Combos: Blue & Orange",
+  "group": "Colour combos",
+  "tags": [
+    "blue",
+    "orange",
+    "vivid"
+  ],
+  "palette": {
+    "credit": "Colour Combos: Blue & Orange",
+    "swatches": [
+      "#02428f",
+      "#0b7bd7",
+      "#ef6816",
+      "#f79d6c"
+    ]
+  }
+}

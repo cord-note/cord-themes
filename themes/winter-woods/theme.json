@@ -1,0 +1,22 @@
+{
+  "name": "Winter Woods",
+  "description": "Snow-covered pines under a starry night sky",
+  "author": "Palette: Winter Woods, shadesurfer.io",
+  "group": "From photographs",
+  "tags": [
+    "blue",
+    "cool",
+    "dark",
+    "muted"
+  ],
+  "palette": {
+    "credit": "Winter Woods, shadesurfer.io",
+    "swatches": [
+      "#38506a",
+      "#28394b",
+      "#1c2b38",
+      "#111f2d",
+      "#071018"
+    ]
+  }
+}

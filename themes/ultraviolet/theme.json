@@ -1,0 +1,20 @@
+{
+  "name": "Ultraviolet",
+  "description": "Purple and black: mysterious, stylish, creative",
+  "author": "Palette: Colour Combos: Purple & Black",
+  "group": "Colour combos",
+  "tags": [
+    "purple",
+    "dark",
+    "vivid"
+  ],
+  "palette": {
+    "credit": "Colour Combos: Purple & Black",
+    "swatches": [
+      "#3e1d8f",
+      "#683ebc",
+      "#ab9bc0",
+      "#090b0c"
+    ]
+  }
+}

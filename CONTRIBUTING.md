@@ -1,0 +1,80 @@
+# Contributing a theme
+
+Cord Themes is an open list: anyone can add a theme with a pull request. Each theme is reviewed by a person and checked automatically before it is merged.
+
+## What a theme is
+
+One folder in `themes/`, named after the theme's id:
+
+```
+themes/my-theme/
+  theme.css     the colours (required)
+  theme.json    name, description, tags and palette (required)
+  preview.svg   generated for you, don't edit it
+```
+
+The id is lowercase letters, digits and dashes, for example `sea-glass`. It must not be one of Cord's built-in ids: `mono`, `blue`, `olive`, `teal`, `midnight`, `rosewood`, `parchment`.
+
+## theme.css
+
+Start from Cord's template, `docs/theming/template-theme.css` in the [Cord repository](https://github.com/cord-note/cord), or copy any theme here. The tokens you can use are listed in `docs/theming/public-api.md`.
+
+- Write a dark block, `[data-theme="my-theme"] { ... }`, that sets every colour token.
+- Write a light block, `[data-theme="my-theme"][data-scheme="light"] { ... }`. Anything you leave out is taken from the dark block, so set every colour there too.
+- Every rule must start with `[data-theme="my-theme"]`. Cord drops anything else, because all library themes are loaded at once for the gallery previews.
+- Only `@media`, `@supports`, `@font-face` and `@keyframes` are allowed. No `@import`, no remote `url()`. Fonts and images must sit in the theme folder.
+
+Text has to stay readable. Against `--bg`, in both schemes:
+
+- `--text-primary`, `--text-secondary` and `--link-color` need 4.5:1
+- `--text-muted` and `--accent` need 3:1
+- `--accent-fg` needs 3:1 against `--accent`
+
+## theme.json
+
+```json
+{
+  "name": "Sea Glass",
+  "description": "Frosted greens and grey sand",
+  "author": "Your name",
+  "group": "Community",
+  "tags": ["green", "cool", "soft"],
+  "palette": {
+    "credit": "Where the colours come from",
+    "url": "https://optional-link-to-the-source",
+    "swatches": ["#0f2a26", "#5fa69a", "#d9e8e2"]
+  }
+}
+```
+
+- `name`: up to 60 characters. `description`: one short line, up to 140.
+- `author`: shown in Cord's gallery.
+- `group`: leave it as `Community`.
+- `tags`: a few lowercase words. Reuse the tags already listed in the README where they fit.
+- `palette.credit`: who made the palette, or where you took it from. If you made it yourself, say so. Up to 8 `swatches`, shown under the preview.
+
+## Before you open the pull request
+
+You need Python 3, nothing else.
+
+```bash
+python tools/check.py
+```
+
+```bash
+python tools/catalogue.py
+```
+
+The first checks every theme. The second writes your `preview.svg` and adds your theme to the README. Commit both. Then try the theme in Cord: **Import → From folder…** and pick your theme folder.
+
+The same checks run on every pull request, and a pull request can't be merged while they fail.
+
+## Curated themes
+
+The themes in "From photographs" and "Colour combos" are generated from a few colours each by `tools/generate.py`, using the palettes in `tools/palettes.py`. To change one, edit `palettes.py` and run `python tools/generate.py`, not the CSS. You are welcome to add your own theme the same way: add a palette there with `group` set to `Community`.
+
+## What gets merged
+
+- Themes that look good in both schemes and are pleasant to write in for hours.
+- A palette that is clearly different from the themes already here, not a slight variation.
+- Credit for the colours. Don't submit someone else's palette without naming them.

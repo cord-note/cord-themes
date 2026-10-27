@@ -1,0 +1,20 @@
+{
+  "name": "Harbour",
+  "description": "Navy and white: calm, fresh, timeless",
+  "author": "Palette: Colour Combos: Navy & White",
+  "group": "Colour combos",
+  "tags": [
+    "blue",
+    "cool",
+    "clean"
+  ],
+  "palette": {
+    "credit": "Colour Combos: Navy & White",
+    "swatches": [
+      "#032c4b",
+      "#3a5b78",
+      "#a2bace",
+      "#f3f3f3"
+    ]
+  }
+}

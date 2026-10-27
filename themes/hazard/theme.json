@@ -1,0 +1,20 @@
+{
+  "name": "Hazard",
+  "description": "Yellow and black: energetic, sharp, bold",
+  "author": "Palette: Colour Combos: Yellow & Black",
+  "group": "Colour combos",
+  "tags": [
+    "yellow",
+    "dark",
+    "high-contrast"
+  ],
+  "palette": {
+    "credit": "Colour Combos: Yellow & Black",
+    "swatches": [
+      "#f1bd2d",
+      "#dea11d",
+      "#c28411",
+      "#090b0c"
+    ]
+  }
+}

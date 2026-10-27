@@ -1,0 +1,22 @@
+{
+  "name": "Dracula",
+  "description": "Dark purple vampire chic, with Alucard for daylight",
+  "author": "Palette: Dracula by Zeno Rocha",
+  "group": "Classic palettes",
+  "tags": [
+    "purple",
+    "dark",
+    "vivid"
+  ],
+  "palette": {
+    "credit": "Dracula by Zeno Rocha",
+    "url": "https://draculatheme.com",
+    "swatches": [
+      "#282a36",
+      "#bd93f9",
+      "#ff79c6",
+      "#8be9fd",
+      "#fffbeb"
+    ]
+  }
+}

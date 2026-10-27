@@ -1,0 +1,24 @@
+{
+  "name": "Koi",
+  "description": "Black water, grey stone and orange koi",
+  "author": "Palette: palettepoint.com",
+  "group": "From photographs",
+  "tags": [
+    "dark",
+    "orange",
+    "grey",
+    "high-contrast"
+  ],
+  "palette": {
+    "credit": "palettepoint.com",
+    "swatches": [
+      "#0a0f12",
+      "#20292d",
+      "#394045",
+      "#565a5c",
+      "#907768",
+      "#a33715",
+      "#b5a295"
+    ]
+  }
+}

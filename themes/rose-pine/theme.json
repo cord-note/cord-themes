@@ -1,0 +1,22 @@
+{
+  "name": "Rosé Pine",
+  "description": "All natural pine, faux fur and a bit of soho vibes",
+  "author": "Palette: Rosé Pine",
+  "group": "Classic palettes",
+  "tags": [
+    "pink",
+    "muted",
+    "soft"
+  ],
+  "palette": {
+    "credit": "Rosé Pine",
+    "url": "https://rosepinetheme.com",
+    "swatches": [
+      "#191724",
+      "#ebbcba",
+      "#9ccfd8",
+      "#c4a7e7",
+      "#faf4ed"
+    ]
+  }
+}

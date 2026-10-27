@@ -1,0 +1,20 @@
+{
+  "name": "Neon Red",
+  "description": "Black and red: bold, edgy, confident",
+  "author": "Palette: Colour Combos: Black & Red",
+  "group": "Colour combos",
+  "tags": [
+    "red",
+    "dark",
+    "vivid"
+  ],
+  "palette": {
+    "credit": "Colour Combos: Black & Red",
+    "swatches": [
+      "#0c0b0e",
+      "#850d1a",
+      "#c91219",
+      "#d84d5e"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Terracotta",
+  "description": "Red and beige: warm, classy, striking",
+  "author": "Palette: Colour Combos: Red & Beige",
+  "group": "Colour combos",
+  "tags": [
+    "red",
+    "warm",
+    "earthy"
+  ],
+  "palette": {
+    "credit": "Colour Combos: Red & Beige",
+    "swatches": [
+      "#7f080e",
+      "#9e3627",
+      "#efad88",
+      "#d2ac92"
+    ]
+  }
+}

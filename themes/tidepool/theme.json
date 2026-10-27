@@ -1,0 +1,20 @@
+{
+  "name": "Tidepool",
+  "description": "Teal and beige: chill, balanced, modern",
+  "author": "Palette: Colour Combos: Teal & Beige",
+  "group": "Colour combos",
+  "tags": [
+    "teal",
+    "cool",
+    "calm"
+  ],
+  "palette": {
+    "credit": "Colour Combos: Teal & Beige",
+    "swatches": [
+      "#115156",
+      "#447270",
+      "#98c7bc",
+      "#cbb39d"
+    ]
+  }
+}
