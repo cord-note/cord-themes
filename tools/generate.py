@@ -107,6 +107,12 @@ def build(pal):
     }
     d = os.path.join(ROOT, 'themes', tid)
     os.makedirs(d, exist_ok=True)
+    # Lock-screen scenes are written by hand, so keep them across regeneration.
+    old = os.path.join(d, 'theme.json')
+    if os.path.isfile(old):
+        scenes = json.load(open(old, encoding='utf-8')).get('scenes')
+        if scenes:
+            meta['scenes'] = scenes
     with open(os.path.join(d, 'theme.css'), 'w', encoding='utf-8', newline='\n') as f:
         f.write(css)
     with open(os.path.join(d, 'theme.json'), 'w', encoding='utf-8', newline='\n') as f:

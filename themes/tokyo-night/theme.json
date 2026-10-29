@@ -18,5 +18,14 @@
       "#bb9af7",
       "#e1e2e7"
     ]
-  }
+  },
+  "scenes": [
+    {
+      "file": "scenes/night-city.glsl",
+      "name": "Night city",
+      "marks": "square",
+      "fps": 4,
+      "cell": 4
+    }
+  ]
 }

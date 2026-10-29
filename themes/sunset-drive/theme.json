@@ -16,5 +16,14 @@
       "#ef6816",
       "#f79d6c"
     ]
-  }
+  },
+  "scenes": [
+    {
+      "file": "scenes/sunset.glsl",
+      "name": "Sunset",
+      "marks": "square",
+      "fps": 2,
+      "cell": 4
+    }
+  ]
 }
