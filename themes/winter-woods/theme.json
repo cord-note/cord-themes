@@ -18,5 +18,14 @@
       "#111f2d",
       "#071018"
     ]
-  }
+  },
+  "scenes": [
+    {
+      "file": "scenes/snowfall.glsl",
+      "name": "Snowfall",
+      "marks": "square",
+      "fps": 4,
+      "cell": 4
+    }
+  ]
 }

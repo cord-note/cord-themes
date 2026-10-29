@@ -20,5 +20,14 @@
       "#a33715",
       "#b5a295"
     ]
-  }
+  },
+  "scenes": [
+    {
+      "file": "scenes/pond.glsl",
+      "name": "Koi pond",
+      "marks": "square",
+      "fps": 6,
+      "cell": 4
+    }
+  ]
 }

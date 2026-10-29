@@ -123,6 +123,7 @@ def readme(themes):
                 f'![{escape(m["name"])} in dark and light](themes/{tid}/preview.svg)', '',
                 f'- Palette: {credit}',
                 f'- Tags: ' + ', '.join(f'`{t}`' for t in m.get('tags', [])),
+                *([f'- Lock-screen scene: ' + ', '.join(s.get('name', s['file']) for s in m['scenes'])] if m.get('scenes') else []),
                 f'- Install only this one: `{REPO}/tree/main/themes/{tid}`',
                 '',
             ]

@@ -114,6 +114,7 @@ Neon city lights after dark, clean paper by day
 
 - Palette: [Tokyo Night by enkia](https://github.com/enkia/tokyo-night-vscode-theme)
 - Tags: `blue`, `purple`, `cool`
+- Lock-screen scene: Night city
 - Install only this one: `https://github.com/cord-note/cord-themes/tree/main/themes/tokyo-night`
 
 ## From photographs
@@ -128,6 +129,7 @@ Black water, grey stone and orange koi
 
 - Palette: palettepoint.com
 - Tags: `dark`, `orange`, `grey`, `high-contrast`
+- Lock-screen scene: Koi pond
 - Install only this one: `https://github.com/cord-note/cord-themes/tree/main/themes/koi`
 
 ### Kombu
@@ -188,6 +190,7 @@ Snow-covered pines under a starry night sky
 
 - Palette: Winter Woods, shadesurfer.io
 - Tags: `blue`, `cool`, `dark`, `muted`
+- Lock-screen scene: Snowfall
 - Install only this one: `https://github.com/cord-note/cord-themes/tree/main/themes/winter-woods`
 
 ## Colour combos
@@ -242,6 +245,7 @@ Navy and white: calm, fresh, timeless
 
 - Palette: Colour Combos: Navy & White
 - Tags: `blue`, `cool`, `clean`
+- Lock-screen scene: Lighthouse
 - Install only this one: `https://github.com/cord-note/cord-themes/tree/main/themes/harbour`
 
 ### Hazard
@@ -312,6 +316,7 @@ Blue and orange: energetic, vibrant, fun
 
 - Palette: Colour Combos: Blue & Orange
 - Tags: `blue`, `orange`, `vivid`
+- Lock-screen scene: Sunset
 - Install only this one: `https://github.com/cord-note/cord-themes/tree/main/themes/sunset-drive`
 
 ### Terracotta

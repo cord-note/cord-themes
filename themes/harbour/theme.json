@@ -16,5 +16,14 @@
       "#a2bace",
       "#f3f3f3"
     ]
-  }
+  },
+  "scenes": [
+    {
+      "file": "scenes/lighthouse.glsl",
+      "name": "Lighthouse",
+      "marks": "square",
+      "fps": 4,
+      "cell": 4
+    }
+  ]
 }

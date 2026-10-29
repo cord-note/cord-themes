@@ -7,6 +7,7 @@ A theme passes when:
 - it sets every colour token for the dark scheme (the light scheme may inherit)
 - text, links and the accent meet their contrast targets in both schemes
 - theme.json has a name, description, author, tags and palette swatches
+- any lock-screen scenes it lists pass the same checks Cord makes when it loads them
 """
 import json
 import os
@@ -22,6 +23,54 @@ ID = re.compile(r'^[a-z0-9][a-z0-9-]{0,63}$')
 HEX = re.compile(r'^#[0-9a-f]{6}$')
 ALLOWED_AT = {'media', 'supports', 'font-face', 'keyframes'}
 GROUPS = {'Classic palettes', 'From photographs', 'Colour combos', 'Community'}
+
+# Lock-screen scenes: the same rules as Cord's loader (loadScenes.ts in the Cord repository).
+MAX_SCENES = 4
+MAX_SCENE_BYTES = 16 * 1024
+SCENE_RULES = [
+    (re.compile(r'[^\t\n\r\x20-\x7e]'), 'only plain ASCII text is allowed'),
+    (re.compile(r'#'), 'preprocessor lines (#...) are not allowed'),
+    (re.compile(r'\b(uniform|attribute|varying)\b'), 'scenes cannot declare uniforms; use the ones provided'),
+    (re.compile(r'\bmain\s*\('), 'scenes cannot define main(); define scene() instead'),
+    (re.compile(r'\bgl_Frag(Color|Data|Coord)\b'), 'scenes return a brightness from scene(); they cannot write pixels'),
+]
+SCENE_SIGNATURE = re.compile(r'\bfloat\s+scene\s*\(\s*vec2\s+\w+\s*,\s*vec2\s+\w+\s*\)')
+
+
+def check_scenes(d, meta, err):
+    scenes = meta.get('scenes')
+    if scenes is None:
+        return
+    if not isinstance(scenes, list) or not scenes:
+        err('"scenes" must be a list of scenes')
+        return
+    if len(scenes) > MAX_SCENES:
+        err(f'at most {MAX_SCENES} scenes; Cord ignores the rest')
+    for s in scenes:
+        f = s.get('file') if isinstance(s, dict) else None
+        if not isinstance(f, str) or not f.endswith('.glsl'):
+            err('each scene needs a "file" ending in .glsl')
+            continue
+        path = os.path.normpath(os.path.join(d, f))
+        if not path.startswith(os.path.normpath(d) + os.sep) or not os.path.isfile(path):
+            err(f'scene {f}: not found inside the theme folder')
+            continue
+        if os.path.getsize(path) > MAX_SCENE_BYTES:
+            err(f'scene {f}: larger than 16 KB')
+        source = open(path, encoding='utf-8', errors='replace').read()
+        for rule, message in SCENE_RULES:
+            if rule.search(source):
+                err(f'scene {f}: {message}')
+        if not SCENE_SIGNATURE.search(source):
+            err(f'scene {f}: missing float scene(vec2 p, vec2 span)')
+        if s.get('marks', 'square') not in ('square', 'glyph'):
+            err(f'scene {f}: "marks" is "square" or "glyph"')
+        for key, lo, hi in (('fps', 1, 8), ('cell', 3, 12)):
+            v = s.get(key)
+            if v is not None and (not isinstance(v, int) or not lo <= v <= hi):
+                err(f'scene {f}: "{key}" is a whole number from {lo} to {hi}')
+        if len(s.get('name', '')) > 40:
+            err(f'scene {f}: name is longer than 40 characters')
 
 
 def selectors(css):
@@ -115,6 +164,7 @@ def check_theme(tid, errors):
         err('theme.json "palette" needs a "credit" saying where the colours come from')
     if meta.get('group', 'Community') not in GROUPS:
         err('"group" must be one of: ' + ', '.join(sorted(GROUPS)))
+    check_scenes(d, meta, err)
 
 
 def main():
